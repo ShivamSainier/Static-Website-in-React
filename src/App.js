@@ -1,8 +1,9 @@
+import Hero from "./Components/HeroSection/Hero";
 
 function App() {
   return (
     <div className="App">
-     App
+     <Hero />
     </div>
   );
 }
