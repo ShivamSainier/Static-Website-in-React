@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import "./Hero.css";
+import Heart from "../../assets/heart.png"
 
 const Hero = () => {
     return (
@@ -48,7 +49,13 @@ const Hero = () => {
                 </div>
             
             </div>
-            <div className='right-h'>right Side</div>
+            <div className='right-h'>
+                <button className="btn">Join now</button>
+                <div className="heart-rate">
+                    <span>Heart Rate</span>
+                    <span> 116 bpm</span>
+                </div>
+            </div>
         </div>
       
   )
