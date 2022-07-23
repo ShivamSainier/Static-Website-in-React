@@ -2,7 +2,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: gray;
+    color:white;
 }
 
 .logo{
@@ -20,6 +20,6 @@
 }
 .list_menu>li:hover{
     cursor: pointer;
-    color:#A84350;
+    color:var(--orange);
 }
 

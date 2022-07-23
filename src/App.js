@@ -1,4 +1,5 @@
 import Hero from "./Components/HeroSection/Hero";
+import "./App.css"
 
 function App() {
   return (
